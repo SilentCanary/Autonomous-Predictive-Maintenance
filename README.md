@@ -36,6 +36,18 @@ The architecture is **modular**, **node‑based**, and built using a **LangGraph
   - `find_center`
   - `normalise_date`
   - `book_slot`
+  ### ✅ Human-like Customer Interaction
+- LLM-powered Hinglish conversation  
+- Maintains conversational memory  
+- Supports MCP tool calls:
+  - `find_center`
+  - `normalise_date`
+  - `book_slot`
+- Dual interaction modes:
+  - **Text mode** → traditional typed conversation
+  - **Voice mode** → powered by **Azure Cognitive Services Speech**  
+    - Blocking TTS (agent speaks Hinglish in natural Indian voices)  
+    - Continuous STT (owner replies naturally, no timeout pressure)
 
 ### ✅ Simulation Ready
 - Console-based interaction  
