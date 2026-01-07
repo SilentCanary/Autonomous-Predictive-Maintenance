@@ -53,11 +53,12 @@ The architecture is **modular**, **node‑based**, and built using a **LangGraph
 ├── CustomerInteraction/
 │   ├── data/
 │   └── tools/
-│       ├── agent3.py
-│       ├── customer_node.py
-│       ├── mcp_client.py
-│       ├── node_base.py
-│       └── test_client.py
+|       |__tools.py
+|       |__ tools_registry.py
+│   ├── agent.py
+│   ├── customer_node2.py
+│   ├── node_base.py
+│ 
 │
 ├── Diagnosis_Agent/
 │   ├── models/
@@ -94,7 +95,7 @@ The architecture is **modular**, **node‑based**, and built using a **LangGraph
 ├── schedulingAgent/
 │   └── ... (future scheduling agent)
 │
-├── Langraph_master.py
+├── master.py
 ├── sensor_simulator.py
 └── requirements.txt
 ```
